@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>0</order>
+        <sc_cat_item display_value="Enteretien D'Évaluation">cf19df15db010300471c712ebf961907</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-06 08:28:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>327b9795db010300471c712ebf961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tally_weijl_first_block.Enteretien D'Évaluation</sys_name>
+        <sys_package display_value="Tally Weijl" source="x_141877_tally_wei">0ca67463dbb04300471c712ebf9619b1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tally Weijl">0ca67463dbb04300471c712ebf9619b1</sys_scope>
+        <sys_update_name>io_set_item_327b9795db010300471c712ebf961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-06 08:28:48</sys_updated_on>
+        <variable_set display_value="tally_weijl_at_first_block">a49bd795db010300471c712ebf9619c0</variable_set>
+    </io_set_item>
+</record_update>

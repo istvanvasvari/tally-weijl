@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Enteretien D'Évaluation" max_length="40" name="x_141877_tally_wei_appraisal_talk" type="collection">
+        <element hint="Qu’est-ce que vous avez accompli cette année et de quoi pouvez-vous être particulièrement fièr(e)?" label="A1" mandatory="true" max_length="4000" name="a1" type="string"/>
+        <element hint="Pour quelles capacités professionnelles et/ou techniques ou caractéristiques personnelles avez-vous un potentiel d’amélioration?" label="A2" mandatory="true" max_length="4000" name="a2" type="string"/>
+        <element choice="3" hint="Quels avantages avez-vous tirés de votre travail au Campus?" label="A3" mandatory="true" max_length="40" name="a3" type="choice">
+            <choice>
+                <element label="Plus d'efficacité" sequence="0" value="0"/>
+                <element label="Moins de déplacements" sequence="1" value="1"/>
+                <element label="Hiérarchie horizontale" sequence="2" value="2"/>
+                <element label="Communication facilitée" sequence="3" value="3"/>
+                <element label="Prise de décisions plus rapide" sequence="4" value="4"/>
+                <element label="La structure de l'entreprise est plus visible" sequence="5" value="5"/>
+                <element label="Autre" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element label="Auter" max_length="4000" name="a3_other" type="string"/>
+        <element label="Nom et Prénom de l'évaluateur" mandatory="true" max_length="40" name="assessor_name" type="string"/>
+        <element hint="Communique de manière efficace avec tous les niveaux de l'entreprise en utilisant un langage adapté au public visé. Maintient les informations sensibles confidentielles en les partageant avec quelques contacts appropriés uniquement." label="B1 Comments" max_length="4000" name="b1_comments" type="string"/>
+        <element choice="3" hint="Communique de manière efficace avec tous les niveaux de l'entreprise en utilisant un langage adapté au public visé. Maintient les informations sensibles confidentielles en les partageant avec quelques contacts appropriés uniquement." label="B1 Employer" mandatory="true" max_length="40" name="b1_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="3" hint="Communique de manière efficace avec tous les niveaux de l'entreprise en utilisant un langage adapté au public visé. Maintient les informations sensibles confidentielles en les partageant avec quelques contacts appropriés uniquement." label="B1 Manager" mandatory="true" max_length="40" name="b1_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Travaille de manière coopérative, proactive et efficace avec les membres de l’équipe en favorisant le travail d’équipe et en maintenant des relations de travail positives." label="B2 Comments" max_length="4000" name="b2_comments" type="string"/>
+        <element choice="3" hint="Travaille de manière coopérative, proactive et efficace avec les membres de l’équipe en favorisant le travail d’équipe et en maintenant des relations de travail positives." label="B2 Employer" mandatory="true" max_length="40" name="b2_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="3" hint="Travaille de manière coopérative, proactive et efficace avec les membres de l’équipe en favorisant le travail d’équipe et en maintenant des relations de travail positives." label="B2 Manager" mandatory="true" max_length="40" name="b2_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Partage avec les autres les informations nécessaires au travail, ses compétences et son expérience en fournissant des outils ou suggestions pratiques." label="B3 Comments" max_length="4000" name="b3_comments" type="string"/>
+        <element choice="3" hint="Partage avec les autres les informations nécessaires au travail, ses compétences et son expérience en fournissant des outils ou suggestions pratiques." label="B3 Employer" mandatory="true" max_length="40" name="b3_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="3" hint="Partage avec les autres les informations nécessaires au travail, ses compétences et son expérience en fournissant des outils ou suggestions pratiques." label="B3 Manager" mandatory="true" max_length="40" name="b3_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="3" hint="Est-ce que l’ambiance dans le service vous motive à obtenir les meilleurs résultats possibles?" label="B4 Atmosphere" mandatory="true" max_length="40" name="b4_atmosphere" type="choice">
+            <choice>
+                <element label="Oui" sequence="0" value="0"/>
+                <element label="Non, pourqoui?" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element label="B4 Comments" max_length="4000" name="b4_comments" type="string"/>
+        <element hint="Coordonne et utilise les ressources (limitées) disponibles pour répondre aux besoins commerciaux de l’entreprise. Est capable d’établir des priorités afin d’effectuer le travail pour faire en sorte que les délais importants soient toujours respectés." label="C1 Comments" max_length="4000" name="c1_comments" type="string"/>
+        <element choice="1" hint="Coordonne et utilise les ressources (limitées) disponibles pour répondre aux besoins commerciaux de l’entreprise. Est capable d’établir des priorités afin d’effectuer le travail pour faire en sorte que les délais importants soient toujours respectés." label="C1 Employer" mandatory="true" max_length="40" name="c1_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Coordonne et utilise les ressources (limitées) disponibles pour répondre aux besoins commerciaux de l’entreprise. Est capable d’établir des priorités afin d’effectuer le travail pour faire en sorte que les délais importants soient toujours respectés." label="C1 Manager" mandatory="true" max_length="40" name="c1_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Effectue des actions décisives basées sur des informations collectées de manière systématique, en faisant un suivi avec les membres de l’équipe et en évaluant les conséquences à court et long terme." label="C2 Comments" max_length="4000" name="c2_comments" type="string"/>
+        <element choice="1" hint="Effectue des actions décisives basées sur des informations collectées de manière systématique, en faisant un suivi avec les membres de l’équipe et en évaluant les conséquences à court et long terme." label="C2 Employer" mandatory="true" max_length="40" name="c2_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Effectue des actions décisives basées sur des informations collectées de manière systématique, en faisant un suivi avec les membres de l’équipe et en évaluant les conséquences à court et long terme." label="C2 Manager" mandatory="true" max_length="40" name="c2_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Identifie les besoins (internes et externes) des clients et répond aux réclamations et demandes d’information des clients en temps voulu." label="C3 Comments" max_length="4000" name="c3_comments" type="string"/>
+        <element choice="1" hint="Identifie les besoins (internes et externes) des clients et répond aux réclamations et demandes d’information des clients en temps voulu." label="C3 Employer" mandatory="true" max_length="40" name="c3_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Identifie les besoins (internes et externes) des clients et répond aux réclamations et demandes d’information des clients en temps voulu." label="C3 Manager" mandatory="true" max_length="40" name="c3_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Qu’avez-vous fait dans la précédente periode pour le Budget?" label="C4" mandatory="true" max_length="4000" name="c4" type="string"/>
+        <element hint="Recherche de nouvelles idées et propose des idées d’amélioration, d’optimisation ou de changement des processus ou opérations de travail." label="D1 Comments" max_length="4000" name="d1_comments" type="string"/>
+        <element choice="3" hint="Recherche de nouvelles idées et propose des idées d’amélioration, d’optimisation ou de changement des processus ou opérations de travail." label="D1 Employer" mandatory="true" max_length="40" name="d1_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="3" hint="Recherche de nouvelles idées et propose des idées d’amélioration, d’optimisation ou de changement des processus ou opérations de travail." label="D1 Manager" mandatory="true" max_length="40" name="d1_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Est capable de résoudre des défis complexes en utilisant des solutions uniques et de développer plusieurs approches et/ou solutions pour répondre aux défis." label="D2 Comments" max_length="4000" name="d2_comments" type="string"/>
+        <element choice="1" hint="Est capable de résoudre des défis complexes en utilisant des solutions uniques et de développer plusieurs approches et/ou solutions pour répondre aux défis." label="D2 Employer" mandatory="true" max_length="40" name="d2_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Est capable de résoudre des défis complexes en utilisant des solutions uniques et de développer plusieurs approches et/ou solutions pour répondre aux défis." label="D2 Manager" mandatory="true" max_length="40" name="d2_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="L’Employé(e) contribue de manière positive au moral/à l’humeur de l’équipe et/ou de l’entreprise, croit en l’entreprise et effectue son travail avec énergie et enthousiasme." label="D3 Comments" max_length="4000" name="d3_comments" type="string"/>
+        <element choice="1" hint="L’Employé(e) contribue de manière positive au moral/à l’humeur de l’équipe et/ou de l’entreprise, croit en l’entreprise et effectue son travail avec énergie et enthousiasme." label="D3 Employer" mandatory="true" max_length="40" name="d3_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="L’Employé(e) contribue de manière positive au moral/à l’humeur de l’équipe et/ou de l’entreprise, croit en l’entreprise et effectue son travail avec énergie et enthousiasme." label="D3 Manager" mandatory="true" max_length="40" name="d3_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Qu’est-ce que vous aimez le plus à propos de votre travail?" label="D4" mandatory="true" max_length="4000" name="d4" type="string"/>
+        <element hint="Identifie les défis et engage sa responsabilité personnelle pour les résoudre (même ceux dont il/elle n’est pas responsable) avec une attitude positive et un dévouement au travail lorsqu’il/elle est confronté(e) à des difficultés et/ou des situations stressantes. Démontre une volonté de prendre en charge une responsabilité supplémentaire." label="E1 Comments" max_length="4000" name="e1_comments" type="string"/>
+        <element choice="1" hint="Identifie les défis et engage sa responsabilité personnelle pour les résoudre (même ceux dont il/elle n’est pas responsable) avec une attitude positive et un dévouement au travail lorsqu’il/elle est confronté(e) à des difficultés et/ou des situations stressantes. Démontre une volonté de prendre en charge une responsabilité supplémentaire." label="E1 Employer" mandatory="true" max_length="40" name="e1_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Identifie les défis et engage sa responsabilité personnelle pour les résoudre (même ceux dont il/elle n’est pas responsable) avec une attitude positive et un dévouement au travail lorsqu’il/elle est confronté(e) à des difficultés et/ou des situations stressantes. Démontre une volonté de prendre en charge une responsabilité supplémentaire." label="E1 Manager" mandatory="true" max_length="40" name="e1_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Respecte les règles et processus internes (par ex. remplissage de la feuille de temps, règles du Campus, heures de travail, etc.)." label="E2 Comments" max_length="4000" name="e2_comments" type="string"/>
+        <element choice="1" hint="Respecte les règles et processus internes (par ex. remplissage de la feuille de temps, règles du Campus, heures de travail, etc.)." label="E2 Employer" mandatory="true" max_length="40" name="e2_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Respecte les règles et processus internes (par ex. remplissage de la feuille de temps, règles du Campus, heures de travail, etc.)." label="E2 Manager" mandatory="true" max_length="40" name="e2_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Montre une capacité à travailler de manière indépendante dans le contexte de son travail." label="E3 Comments" max_length="4000" name="e3_comments" type="string"/>
+        <element choice="1" hint="Montre une capacité à travailler de manière indépendante dans le contexte de son travail." label="E3 Employer" mandatory="true" max_length="40" name="e3_employer" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Montre une capacité à travailler de manière indépendante dans le contexte de son travail." label="E3 Manager" mandatory="true" max_length="40" name="e3_manager" type="choice">
+            <choice>
+                <element label="Progrès Requis" sequence="0" value="0"/>
+                <element label="Suffisant" sequence="1" value="1"/>
+                <element label="Bien" sequence="2" value="2"/>
+                <element label="Excellent" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element hint="Quel est actuellement votre plus grand défi?" label="E4" mandatory="true" max_length="4000" name="e4" type="string"/>
+        <element label="Nom et Prénom de l'employé" mandatory="true" max_length="40" name="employee_name" type="string"/>
+        <element label="Date de l'entretien d'évaluation" mandatory="true" max_length="40" name="evaluation_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element choice="3" label="Veuillez sélectionner votre service" mandatory="true" max_length="40" name="service" type="choice">
+            <choice>
+                <element label="Allocation &amp; Merchandise Planning" sequence="0" value="0"/>
+                <element label="Brand Image" sequence="1" value="1"/>
+                <element label="Buying &amp; Design - Accessories" sequence="2" value="2"/>
+                <element label="Buying &amp; Design - Bottom &amp; Denim" sequence="3" value="3"/>
+                <element label="Buying &amp; Design - Jersey &amp; Trends" sequence="4" value="4"/>
+                <element label="Buying &amp; Design - Knitwear" sequence="5" value="5"/>
+                <element label="Buying &amp; Design - Outerwear" sequence="6" value="6"/>
+                <element label="Buying &amp; Design - Woven" sequence="7" value="7"/>
+                <element label="CEO - Service" sequence="8" value="8"/>
+                <element label="Company Development" sequence="9" value="9"/>
+                <element label="Distribution" sequence="10" value="10"/>
+                <element label="e-Commerce" sequence="11" value="11"/>
+                <element label="CFO - Service" sequence="12" value="12"/>
+                <element label="Human Ressources" sequence="13" value="13"/>
+                <element label="IT" sequence="14" value="14"/>
+                <element label="Legal" sequence="15" value="15"/>
+                <element label="Logistics" sequence="16" value="16"/>
+                <element label="Marketing" sequence="17" value="17"/>
+                <element label="Partner &amp; Wholesale" sequence="18" value="18"/>
+                <element label="Retail Management" sequence="19" value="19"/>
+                <element label="Sales &amp; Travel Backoffice" sequence="20" value="20"/>
+                <element label="Sourcing" sequence="21" value="21"/>
+                <element label="Visual Merchandising" sequence="22" value="22"/>
+            </choice>
+        </element>
+        <element choice="3" default="0" label="État" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Submitted" sequence="0" value="0"/>
+                <element label="Approved" sequence="1" value="1"/>
+                <element label="Invited" sequence="2" value="2"/>
+                <element label="Evaluated" sequence="3" value="3"/>
+                <element label="HR meeting" sequence="4" value="4"/>
+                <element label="Closed" sequence="5" value="5"/>
+            </choice>
+        </element>
+    </element>
+</database>

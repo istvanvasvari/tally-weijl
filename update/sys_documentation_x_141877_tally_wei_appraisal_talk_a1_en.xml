@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="a1" label="A1" language="en" table="x_141877_tally_wei_appraisal_talk">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>a1</element>
+            <help/>
+            <hint>Qu’est-ce que vous avez accompli cette année et de quoi pouvez-vous être particulièrement fièr(e)?</hint>
+            <label>A1</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <plural>A1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-06 11:22:01</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>685384a9db410300471c712ebf961946</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>A1</sys_name>
+            <sys_package display_value="Tally Weijl" source="x_141877_tally_wei">0ca67463dbb04300471c712ebf9619b1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Tally Weijl">0ca67463dbb04300471c712ebf9619b1</sys_scope>
+            <sys_update_name>sys_documentation_x_141877_tally_wei_appraisal_talk_a1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-13 09:13:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

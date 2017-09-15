@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-06 08:01:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cf659f91db010300471c712ebf9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_141877_tally_wei_appraisal_talk.x_141877_tally_wei.enteretien_d_valuation_user</sys_name>
+        <sys_package display_value="Tally Weijl" source="x_141877_tally_wei">0ca67463dbb04300471c712ebf9619b1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tally Weijl">0ca67463dbb04300471c712ebf9619b1</sys_scope>
+        <sys_security_acl display_value="x_141877_tally_wei_appraisal_talk">07659f91db010300471c712ebf9619a6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cf659f91db010300471c712ebf9619a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-06 08:01:29</sys_updated_on>
+        <sys_user_role display_value="x_141877_tally_wei.enteretien_d_valuation_user" name="x_141877_tally_wei.enteretien_d_valuation_user">ea655b11db010300471c712ebf961963</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

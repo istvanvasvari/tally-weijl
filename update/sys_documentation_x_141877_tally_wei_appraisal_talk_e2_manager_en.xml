@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="e2_manager" label="E2 Manager" language="en" table="x_141877_tally_wei_appraisal_talk">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>e2_manager</element>
+            <help/>
+            <hint>Respecte les règles et processus internes (par ex. remplissage de la feuille de temps, règles du Campus, heures de travail, etc.).</hint>
+            <label>E2 Manager</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <plural>E2 Managers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-13 13:36:35</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>fb3564bbdbc90300471c712ebf96193e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>E2 Manager</sys_name>
+            <sys_package display_value="Tally Weijl" source="x_141877_tally_wei">0ca67463dbb04300471c712ebf9619b1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Tally Weijl">0ca67463dbb04300471c712ebf9619b1</sys_scope>
+            <sys_update_name>sys_documentation_x_141877_tally_wei_appraisal_talk_e2_manager_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-13 13:36:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="b1_employer" table="x_141877_tally_wei_appraisal_talk" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>b1_employer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Progrès Requis</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 08:43:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1de05c7db010300471c712ebf961941</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 13:35:10</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>b1_employer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Suffisant</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 08:43:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9eec9c7db010300471c712ebf9619bf</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 09:01:13</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>b1_employer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bien</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 08:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69fe4dc7db010300471c712ebf961999</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 09:01:17</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>b1_employer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Excellent</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 08:43:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c0f4dc7db010300471c712ebf9619e2</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 09:01:21</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>b1_employer</element>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 08:43:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d9ee4dc7db010300471c712ebf961934</sys_id>
+            <sys_mod_count>21</sys_mod_count>
+            <sys_name>b1_employer</sys_name>
+            <sys_package display_value="Tally Weijl" source="x_141877_tally_wei">0ca67463dbb04300471c712ebf9619b1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Tally Weijl">0ca67463dbb04300471c712ebf9619b1</sys_scope>
+            <sys_update_name>sys_choice_x_141877_tally_wei_appraisal_talk_b1_employer</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 13:35:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

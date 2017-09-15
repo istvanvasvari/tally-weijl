@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="assessor_name" label="Nom et Prénom de l'évaluateur" language="en" table="x_141877_tally_wei_appraisal_talk">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assessor_name</element>
+            <help/>
+            <hint/>
+            <label>Nom et Prénom de l'évaluateur</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <plural>Nom et Prénom de l'évaluateurs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-06 11:17:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1a5200a9db410300471c712ebf961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nom et Prénom de l'évaluateur</sys_name>
+            <sys_package display_value="Tally Weijl" source="x_141877_tally_wei">0ca67463dbb04300471c712ebf9619b1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Tally Weijl">0ca67463dbb04300471c712ebf9619b1</sys_scope>
+            <sys_update_name>sys_documentation_x_141877_tally_wei_appraisal_talk_assessor_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-06 11:17:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

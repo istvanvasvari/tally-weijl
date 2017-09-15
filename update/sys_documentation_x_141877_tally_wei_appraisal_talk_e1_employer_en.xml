@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="e1_employer" label="E1 Employer" language="en" table="x_141877_tally_wei_appraisal_talk">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>e1_employer</element>
+            <help/>
+            <hint>Identifie les défis et engage sa responsabilité personnelle pour les résoudre (même ceux dont il/elle n’est pas responsable) avec une attitude positive et un dévouement au travail lorsqu’il/elle est confronté(e) à des difficultés et/ou des situations stressantes. Démontre une volonté de prendre en charge une responsabilité supplémentaire.</hint>
+            <label>E1 Employer</label>
+            <language>en</language>
+            <name>x_141877_tally_wei_appraisal_talk</name>
+            <plural>E1 Employers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-13 13:26:49</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>7c032c3bdbc90300471c712ebf9619d8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>E1 Employer</sys_name>
+            <sys_package display_value="Tally Weijl" source="x_141877_tally_wei">0ca67463dbb04300471c712ebf9619b1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Tally Weijl">0ca67463dbb04300471c712ebf9619b1</sys_scope>
+            <sys_update_name>sys_documentation_x_141877_tally_wei_appraisal_talk_e1_employer_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-13 13:27:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
